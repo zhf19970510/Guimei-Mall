@@ -1,0 +1,127 @@
+a{
+	text-decoration: underline;
+}
+.Logincontent{
+	width: 1024px;
+	height: 400px;
+	margin-top: 6px;
+	margin-left: 23px;
+	padding-top: 48px;
+	padding-left: 35px;
+	background: url(../img/login_bg.gif) no-repeat;
+}
+.LoginLeft{
+	width: 465px;
+	height: 380px;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+.LoginForm{
+	width: 365px;
+	display: inline-block;
+	margin-left: 100px;
+}
+.padLabel{
+	letter-spacing: 9px;
+}
+.inputText{
+	border: 1px solid black;
+	height: 18px;
+}
+.submitButton{
+	margin-left: 75px;
+}
+.LoginLeft a,.LoginRight a{
+	color: blue;
+}
+.LoginLeft p{
+	margin-left: 50px;
+	line-height: 28px;
+}
+.LoginLeft .symbol{
+	padding-right: 8px;
+}
+.LoginRight{
+	margin-left:20px;
+	margin-top: 10px;
+	float: left;
+}
+.LoginRight p{
+	margin-left: 30px;
+	line-height: 40px;
+}
+.LoginRight span{
+	font-size: 15px;
+}
+.LoginRight .LoginDesc{
+	position: relative;
+	bottom: 12px;
+}
+.LoginIcon{
+	display:inline-block;
+	width: 35px;
+	height: 32px;
+	background: url(../img/icon.gif);
+}
+.LoginIcon1{
+	
+	background-position: 0 -125px;
+}
+.LoginIcon2{
+	background-position: 0 -167px;
+}
+.LoginIcon3{
+	background-position: 0 -209px;
+}
+.LoginIcon4{
+	background-position: 0 -247px;
+}
+.LoginRight .focus1{
+	font-weight: bold;
+	color: #0099FC;
+}
+.registerNow{
+	margin-top: -10px;
+	margin-left: 100px;
+}
+.LoginRight .LoginOrRegister{
+	width: 310px;
+	height: 54px;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding:12px 30px;
+	border: 1px solid #F7D5A7;
+}
+.loginEntry{
+	margin-bottom: 5px;
+	padding: 5px 0 5px 0;
+	height: 14px;
+	border: 1px solid #F6E0C3;
+}
+.registerEntry{
+	padding: 5px 0;
+	height: 14px;
+	border: 1px solid #F6E0C3;
+}
+.member{
+	display: inline-block;
+	width: 38px;
+	height: 19px;
+	background: url(../img/icon.gif);
+	background-position: 0 -285px;
+}
+.newer{
+	display: inline-block;
+	width: 38px;
+	height: 17px;
+	background:url(../img/icon.gif);
+	background-position: 0 -324px;
+}
+.fonts{
+	position: relative;
+	bottom: 5px;
+	font-size: 14px;
+}
+a{
+	font-size: 14px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>帮助中心</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/helper.css" />
+	</head>
+	<body>
+		<!--
+			该页面使用frameset感觉不是太会，使用frameset的话，首先需要将浏览器分为三列，然后将该页面的中间分为三列，
+			第一列和第三列使用iframe，第二列内嵌一个frameset.然后根据左侧的链接将需要显示的内容显示在右侧。
+        	作者：zhf19970510@163.com
+        	时间：2019-05-29
+        	描述：
+        -->
+		<div class="outer">
+			<iframe src="header.html" class="head"></iframe>
+			<div class="helpercontent">
+				<!--
+                	因为内容比较少，我在这里也就没有将左侧导航栏设置为iframe.
+                -->
+				<div class="helperleft">
+					<ul>
+						<span><a href="LoginHelp.html" target="rightHelper"><img src="img/reg.jpg" /></a></span>
+						<li></li>
+					</ul>
+					
+					<ul>
+						<span><a href="test4.html" target="rightHelper"><img src="img/buy.jpg" /></a></span>
+						<li></li>
+					</ul>
+					<ul>
+						<span><a href="test7_1.html" target="rightHelper"><img src="img/sale.jpg"</a></span>
+							<li><a href="#" class="sonmenu">安全中心</a></li>
+							<li><a href="#" class="sonmenu">物流中心</a></li>
+							<li><a href="#" class="sonmenu">资金流动</a></li>
+							<li><a href="#" class="sonmenu">纠纷处理</a></li>
+					</ul>
+					<ul>
+						<span><a href="新闻列表.html" target="rightHelper"><img src="img/person.jpg" /></a></span>
+						<li></li>
+					</ul>
+				</div>
+				<iframe src="LoginHelp.html" class="helperright1" name="rightHelper"></iframe>
+			</div>
+			<iframe src="footer.html" class="foot"></iframe>
+		</div>
+		
+	</body>
+</html>

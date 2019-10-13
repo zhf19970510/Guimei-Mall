@@ -1,0 +1,74 @@
+.content{
+	width: 977px;
+	margin:15px;
+}
+h1{
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.goodsContent{
+	height: 380px;
+	border-top: 1px solid #E0E0E0;
+}
+.detailsLeft{
+	padding-top: 16px;
+	margin-right: 36px;
+	width: 352px;
+	float: left;
+}
+.bigIcon{
+	display: block;
+	width: 350px;
+	margin-bottom: 18px;
+	border:1px solid #CCCCCC;
+}
+.detailsLeft li{
+	margin-right: 10px;
+	margin-bottom: 3px;
+	border: 2px solid #DDDDDD;
+	float: left;
+}
+.img1{
+	margin-right: 50px;
+}
+.detailRight{
+	width: 350px;
+	float: left;
+}
+.detailRight>p{
+	line-height: 32px;
+	border-bottom: 1px dashed #DEDEDE;
+}
+.property{
+	margin-right: 23px;
+}
+.nowBuy{
+	margin:20px 0;
+}
+.note{
+	height: 42px;
+	padding-left: 11px;
+	border:1px solid #DDCF8F;
+	background: #FFFFED;
+}
+.img2{
+	margin-top: 11px;
+	float: left;
+	margin-right: 13px;
+	display: block;
+}
+.notecontent{
+	margin-top: 7px;
+	float: left;
+	
+}
+.notecontent>p{
+	margin-bottom: 2px;
+}
+.show1:hover,.show2:hover,.show3:hover,.show4:hover,.show5:hover{
+	cursor: pointer;
+}
+.pleft{
+	margin-right: 74px;
+}

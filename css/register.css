@@ -1,0 +1,65 @@
+.registerContent{
+	width: 1024px;
+	height: 350px;
+	margin-top: 6px;
+	margin-left: 23px;
+	margin-bottom: 60px;
+	padding-left: 50px;
+	padding-top: 50px;
+	background: url(img/reg_bg.gif) no-repeat;
+}
+.reset{
+	border: 0; 
+	width:80px;
+	height: 34px; 
+	background: url(img/reset.gif); 
+	cursor: pointer;
+}
+.registerLeft{
+	float: left;
+}
+
+.LabelForm{
+	width: 100px;
+	text-align: right;
+	float: left;
+}
+.LabelForm label{
+	display: block;
+	line-height: 35px;
+}
+.registerForm{
+	float: left;	
+	text-align: left;
+	width: 500px;
+	margin-top: 10px;
+}
+.registerInput{
+	margin-bottom: 16px;
+}
+.year{
+	width: 40px;
+}
+.date{
+	width: 26px;
+}
+.registerRight{
+	margin-top: 20px;
+	float: left;
+	
+}
+.protocol{
+	font-weight: bold;
+}
+.protocolContent{
+	margin-top: 10px;
+	width: 240px;
+	height: 180px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+	border: 1px solid #CCCCCC;
+}
+.p1{
+	text-indent: 14px;
+}
+

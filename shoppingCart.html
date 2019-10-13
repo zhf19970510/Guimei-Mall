@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/cart.css" />
+	</head>
+	<body>
+		<div class="outer">
+			<iframe src="header.html" class="head"></iframe>
+			<div class="CatContent">
+				
+				<img src="img/mycart.gif" />
+				<span class="t1">全场运费一律2元</span>
+				<span class="t2">
+					<a href="#">简易计算器</a>
+				</span>
+				<h1 class="h1">确认商品价格与交易条件</h1>
+				<form action="#" method="get">
+				<ul>
+					<li class="li1 ultitle">商品名</li>
+					<li class="li2 ultitle">原价</li>
+					<li class="li3 ultitle">优惠价</li>
+					<li class="li4 ultitle">打折</li>
+					<li class="li5 ultitle">数量</li>
+					<li class="li6 ultitle">删除</li>
+				</ul>
+				<ul>
+					<li class="li1">攀高搓捶背靠垫按摩器（蓝色）（定制）</li>
+					<li class="li2 originalPrice">￥258.00</li>
+					<li class="li3 newPrice">￥129.00</li>
+					<li class="li4">50折</li>
+					<li class="li5"><input type="text" value="1" /></li>
+					<li class="li6"><input type="button" name="del" value="删除" class="but1"/></li>
+				</ul>
+				<ul>
+					<li class="li1">郝彬美国口语-美国口语成功训练系统（MP3）</li>
+					<li class="li2 originalPrice">￥480.00</li>
+					<li class="li3 newPrice">￥292.90</li>
+					<li class="li4">60折</li>
+					<li class="li5"><input type="text" value="1" /></li>
+					<li class="li6"><input type="button" name="del" value="删除" class="but1"/></li>
+				</ul>
+				<ul>
+					<li class="li1">简·奥斯汀全集（DVD-9）（赠BBC产品目录...</li>
+					<li class="li2 originalPrice">￥138.00</li>
+					<li class="li3 newPrice">￥103.90</li>
+					<li class="li4">80折</li>
+					<li class="li5"><input type="text" name="amount" value="1"/></li>
+					<li class="li6"><input type="button" name="del" value="删除" class="but1"/></li>
+				</ul>
+				<ul>
+					<li class="sum1">继续挑选商品</li>
+					<li class="sum2">￥527.40</li>
+					<li class="sum3">你共节省：￥348.60</li>
+				</ul>
+				</form>
+				<h1 class="h1 h2">补充您的邮件地址和联系人基本信息</h1>
+				<div class="order">
+					<form action="#" method="post">
+						<p class="infoorder"><label for="receiver">收件人：</label><input type="text" name="receiver" /></p>
+						<p class="infoorder"><label for="address">地&nbsp;址：</label><input type="text" name="address" />
+						<span class="note">请点击填写地址</span></p>
+						<p class="infoorder"><label for="tel">电&nbsp;话：</label><input type="tel" name="num" class="tel1"/><span>-</span>
+						<input type="tel" name="num" class="tel2" /><span>-</span>
+						<input type="tel" name="num" class="tel1"/>
+						<span>（区号-电话号码-分机）</span></p>
+						<input type="image" src="img/submit.gif" class="submitButton"/>
+					</form>
+				</div>
+			</div>
+			<iframe src="footer.html" class="foot"></iframe>
+		</div>
+	</body>
+</html>

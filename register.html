@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/register.css" />
+	</head>
+	<body>
+		<div class="outer">
+			<iframe src="header.html" class="head"></iframe>
+			<div class="registerContent">
+				<form action="#" method="post">
+					<div class="registerLeft">
+						<div class="LabelForm">
+							<label for="name">名字：</label>
+							<label for="surname">姓氏：</label>
+							<label for="username">登录名：</label>
+							<label for="password">密码：</label>
+							<label for="repassword">再次确认密码：</label>
+							<label for="email">电子邮箱：</label>
+							<label for="sex">性别：</label>
+							<label for="avatar">头像：</label>
+							<label for="hobby">爱好：</label>
+							<label for="year">出生日期：</label>
+							
+						</div>
+						<div class="registerForm">
+							<input type="text" name="name" class="registerInput"/><br />							
+							<input type="text" name="surname" class="registerInput"/><br />
+							<input type="text" name="username" class="registerInput"/>
+							<span class="registerInput">（可能包含a-z、0-9和下划线）</span><br />
+							<input type="password" name="password" class="registerInput"/>
+							<span class="registerInput">（至少包含6个字符）</span><br />
+							<input type="password"  name="repassword" class="registerInput"/><br />
+							<input type="email" name="email" class="registerInput" />
+							<span class="registerInput">（必须包含@字符）</span><br />
+							<input type="radio" name="sex" value="male" class="registerInput"/>
+							<img src="img/Male.gif" /><span>男</span>
+							<input type="radio" name="sex" value="female" class="registerInput"/>
+							<img src="img/Female.gif" /><span>女</span><br />
+							<input type="file" name="avatar" class="registerInput"/><br />
+							<input type="checkbox" name="hobby" value="运动"/ class="registerInput"> <span>运动</span>
+							<input type="checkbox" name="hobby" value="聊天" /> <span>聊天</span>
+							<input type="checkbox" name="hobby" value="玩游戏"/> <span>玩游戏</span><br />
+							<input type="text" name="year" value="yyyy" class="year registerInput"><span>年</span>
+							<select name="月份" class="registerInput">
+								<option value="default">[选择月份]</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+							</select>
+							<input type="text" name="date" value="dd" class="registerInput date"/><span>日</span><br />
+							<input type="image" src="img/submit.gif" />
+							<!--<input type="image" src="img/reset.gif" />-->
+							<!--<button style="border: 0;"><img src="img/reset.gif" /></button>-->
+							<input type="reset" name="reset" value="" class="reset"/>
+						</div>
+					</div>
+					<div class="registerRight">
+						<img src="img/read.gif" /><span class="protocol">阅读贵美网服务协议</span><br />
+						<div class="protocolContent">
+							<p>欢迎阅读服务条款协议，本协议阐述之条款和条件适用于您使用Gmgw.com网站的各种工具和服务。</p><br />
+ 							<p class="p1"> 本服务协议双方为贵美与贵美网用户，本服务协议具有合同效力。 </p>
+ 							<p class="p1">贵美的权利和义务</p> 
+   							<p class="p1">1.贵美有义务在现有技术上维护整个网上交易平台的正常运行，并努力提升和改进技术，使用户网上交易活动的顺利。</p> 
+    						<p class="p1">2.对用户在注册使用贵美网上交易平台中所遇到的与交易或注册有关的问题及反映的情况，贵美应及时作出回复 </p>
+  							<p class="p1">3.对于在贵美网网上交易平台上的不当行为或其它任何贵美认为应当终止服务的情况，贵美有权随时作出删除相关信息、终止服务提供等处理，而无须征得用户的同意。</p> 
+  							<p class="p1">4.因网上交易平台的特殊性，贵美没有义务对所有用户的注册资料、所有的交易行为以及与交易有关的其他事项进行事先审查。</p> 
+  						</div>
+				  	</div>
+				</form>  
+			</div>
+			<iframe src="footer.html" class="foot"></iframe>
+		</div>
+	</body>
+</html>

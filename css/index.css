@@ -1,0 +1,125 @@
+.content{
+	width: 1024px;
+	height: 660px;
+	margin-left: 22px;
+	background: url(img/bg.gif) no-repeat;
+}
+.content .left{
+	width: 195px;
+	margin-top:44px;
+	float: left;
+	padding-left: 14px;
+}
+.left h5{
+	color: #FE7323;
+	font-size: 14px;
+	
+}
+.left .nav1{
+	height: 151px;
+}
+.left .nav2{
+	height: 145px;
+}
+.left .nav3{
+	height: 146px;
+}
+.left .nav4{
+	height: 162px;
+}
+/*.nav1 ul,.nav2 ul,.nav3 ul,.nav4 ul{
+	display: inline-block;
+	float: left;
+}*/
+.left ul{
+	display: inline-block;
+	width: 61px;
+	margin-top: 10px;
+	float: left;
+}
+.left ul li{
+	line-height: 23px;
+}
+.left ul li a{
+	color: black;
+}
+.middle{
+	width: 524px;
+	float: left;
+}
+.carouselMap{
+	width: 522px;
+	height: 192px;
+}
+.midbottom{
+	margin-left: 8px;
+	margin-top: 45px;
+	width: 516px;
+	height: 404px;
+}
+.midbottom ul{
+	display: inline-block;
+	width: 172px;
+	height: 130px;
+	float: left;
+	text-align: center;
+	margin: 0px 0;
+}
+.midbottom ul li:first-child{
+	height: 90px;
+	margin-bottom: 2px;
+}
+.midbottom img{
+	border: 1px solid #D8D8D8;
+}
+.midbottom a{
+	font-size: 13px;
+}
+.midbottom a:link,a:visited{
+	color: black;
+}
+.midbottom a:hover{
+	color: blue;
+}
+.right{
+	float: left;
+	margin-top: 192px;
+}
+.right ul{
+	padding-left: 30px;
+	height: 240px;
+}
+.right li{
+	height: 58px;
+}
+.rightads{
+	display: inline-block;
+	border: 1px solid #B5B7B8;
+}
+.right .rightdes{
+	position: relative;
+	bottom: 25px;
+}
+.right a:link,.right a:visited{
+	color: black;
+}
+.right a:hover{
+	color: blue;
+}
+.leftads1{
+	position: fixed;
+	top: 78px;
+}
+.rightads1{
+	position: fixed;
+	top: 78px;
+	right: 0;
+}
+.leftx{
+	left: 87px;
+	z-index: 1;
+}
+.rightx{
+	right: 114px;
+	z-index: 1;
+}

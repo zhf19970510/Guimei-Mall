@@ -1,0 +1,64 @@
+.listContent{
+	width: 1024px;
+	margin-top: 6px;
+	margin-left: 23px;
+	padding-top: 68px;
+	margin-bottom: 57px;
+	background:url(../img/catlist_bg.gif) no-repeat;
+}
+.listContent ul{
+	width: 975px;
+	/*height: 20px;*/
+	overflow: hidden;
+	border-bottom: 1px dashed grey;
+}
+.title{
+	font-weight: bold;
+	font-size: 14px;
+}
+.listContent li{
+	text-align: center;
+	float: left;
+}
+.u1{
+	padding-bottom: 5px;
+}
+.li1{
+	width: 55px;
+	margin-left: 73px;
+	margin-right: 102px;
+	
+}
+.li2{
+	width: 135px;
+	margin-right: 140px;
+}
+.li3{
+	width: 269px;
+	margin-right: 135px;
+}
+.listContent p{
+	line-height: 28px;
+}
+.listContent a{
+	color: black;
+}
+.li4{
+	width: 48px;
+}
+.u2 .li1{
+	padding-top: 67px;
+	padding-bottom: 57px;
+}
+.u2 .li2{
+	padding-top: 16px;
+}
+.u2 .li3,.u2 .li4{
+	padding-top: 23px;
+}
+.u3 .li1,.u4 .li1,.u5 .li1{
+	padding-top: 53px;
+}
+.u5{
+	padding-bottom: 28px;
+}

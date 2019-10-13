@@ -1,0 +1,26 @@
+.footer{
+	text-align: center;
+}
+.footer ul{
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	padding:0 85px 8px;
+	border-bottom: 1px solid #B1B1B1;
+}
+.footer li{
+	float: left;
+}
+.footer li a{
+	color: black;
+	font-size: 14px;
+	padding: 0 4px;
+}
+.footermid{
+	width: 960px;
+	margin: 6px 0;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 20px;
+}

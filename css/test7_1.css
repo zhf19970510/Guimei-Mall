@@ -1,0 +1,36 @@
+ul{
+	width: 172px;
+	list-style: none;
+	border: 1px solid #AACBEE;
+	padding: 0 0 0 7px;
+	margin: 0;
+	background-color: #F5F9FC;
+	position: relative;
+}
+ul li{
+	font-size: 17px;
+	height: 29px;
+	line-height: 34px;
+	padding:0 0px 5px 0;
+	margin-right: 8px;
+	border-top: 1px solid #cfe2f5;
+	overflow: visible;
+	display: none;
+}
+span{
+	font-weight: bold;
+	font-size: 15px;
+	padding:9px 0 9px 21px;
+	background: url(../img/title_icon.gif) no-repeat left;
+	display: block;
+}
+ul:hover li{
+	
+	background: url(../img/submenu.gif) no-repeat left;
+	background-size: 172px;
+	display: block;
+}
+li:hover{
+	color: red;
+}
+

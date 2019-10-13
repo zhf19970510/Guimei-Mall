@@ -1,0 +1,118 @@
+.CatContent{
+	margin: 25px 0 5px 22px;
+}
+.t1{
+	margin-left: 50px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.t2{
+	margin-left: 50px;
+}
+.t2 a{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+.h1{
+	margin-top: 20px;
+	padding-left: 60px;
+	padding-top: 10px;
+	width: 1024px;
+	height: 32px;
+	font-size: 14px;
+	background: url(../img/buytitle_bg.gif) no-repeat;
+}
+.CatContent ul{
+	margin-left: 15px;
+}
+.CatContent ul li{
+
+	float: left;
+}
+.li1{
+	width: 397px;
+}
+.li2{
+	width: 115px;
+}
+.li3{
+	width: 110px;
+}
+.li4{
+	width: 110px;
+}
+.li5{
+	width: 150px;
+}
+.li6{
+	width: 32px;
+}
+li{
+	font-size: 14px;
+	line-height: 25px;
+}
+.ultitle{
+	font-weight: bold;
+}
+.originalPrice{
+	color: #999999;
+}
+.newPrice{
+	color: red;
+}
+.sum1{
+	width: 470px;
+}
+.sum2{
+	width: 140px;
+}
+.sum3{
+	width: 140px;
+}
+.but1{
+	border: none;
+	background: none;
+	font-size: 14px;
+}
+/*.h1{
+	margin-top: 20px;
+	padding-left: 60px;
+	padding-top: 10px;
+	width: 1024px;
+	height: 32px;
+	font-size: 14px;
+	background: url(../img/buytitle_bg.gif) no-repeat;
+}*/
+.h2{
+	clear: both;
+	font-weight: 200;
+	font-size: 12px;
+}
+.order{
+	margin-left: 100px;
+	
+}
+.note{
+	font-weight: bold;
+	font-size: 15px;
+}
+.infoorder{
+	line-height: 22px;
+}
+.tel1{
+	width: 25px;
+}
+.tel2{
+	width: 60px;
+}
+label{
+	font-size: 14px;
+}
+span{
+	font-size: 14px;
+}
+.submitButton{
+	margin-left: 55px;
+	margin-top: 3px;
+}
